@@ -11,6 +11,7 @@
 		4786B25D9C9E1F25B28DD96C /* libPods-Tinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD2E2330092A62A540C091 /* libPods-Tinder.a */; };
 		9A45265DBCAAC178D25FDBBD /* libPods-TinderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FECC99A3CE3EB59B6011BD68 /* libPods-TinderTests.a */; };
 		ADA88F4C1F0093D0004F119D /* SavedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA88F4B1F0093D0004F119D /* SavedViewController.m */; };
+		ADA88F521F00CD2F004F119D /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA88F511F00CD2F004F119D /* TableCell.m */; };
 		ADB6DB001EFF3CBB00BE1D91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB6DAFF1EFF3CBB00BE1D91 /* main.m */; };
 		ADB6DB031EFF3CBB00BE1D91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB6DB021EFF3CBB00BE1D91 /* AppDelegate.m */; };
 		ADB6DB061EFF3CBB00BE1D91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB6DB051EFF3CBB00BE1D91 /* ViewController.m */; };
@@ -53,6 +54,8 @@
 		83E979D223BD5A87EFDDF694 /* Pods-TinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinderUITests/Pods-TinderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ADA88F4A1F0093BB004F119D /* SavedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SavedViewController.h; sourceTree = "<group>"; };
 		ADA88F4B1F0093D0004F119D /* SavedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedViewController.m; sourceTree = "<group>"; };
+		ADA88F501F00CD1F004F119D /* TableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		ADA88F511F00CD2F004F119D /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
 		ADB6DAFB1EFF3CBA00BE1D91 /* Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB6DAFF1EFF3CBB00BE1D91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ADB6DB011EFF3CBB00BE1D91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -169,6 +172,8 @@
 				ADB6DB381EFF3DC300BE1D91 /* OverlayView.m */,
 				ADA88F4A1F0093BB004F119D /* SavedViewController.h */,
 				ADA88F4B1F0093D0004F119D /* SavedViewController.m */,
+				ADA88F501F00CD1F004F119D /* TableCell.h */,
+				ADA88F511F00CD2F004F119D /* TableCell.m */,
 				ADB6DB071EFF3CBB00BE1D91 /* Main.storyboard */,
 				ADB6DB0A1EFF3CBB00BE1D91 /* Assets.xcassets */,
 				ADB6DB0C1EFF3CBB00BE1D91 /* LaunchScreen.storyboard */,
@@ -481,6 +486,7 @@
 				ADB6DB061EFF3CBB00BE1D91 /* ViewController.m in Sources */,
 				ADB6DB031EFF3CBB00BE1D91 /* AppDelegate.m in Sources */,
 				ADB6DB001EFF3CBB00BE1D91 /* main.m in Sources */,
+				ADA88F521F00CD2F004F119D /* TableCell.m in Sources */,
 				ADB6DB361EFF3D9000BE1D91 /* DraggableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

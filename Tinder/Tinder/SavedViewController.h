@@ -10,7 +10,7 @@
 @import FirebaseDatabase;
 @import Firebase;
 
-@interface SavedViewController : UIViewController
+@interface SavedViewController : UITableViewController
 
 @property (strong, nonatomic) FIRDatabaseReference *ref;
 
